@@ -1,0 +1,155 @@
+p{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  color: #696969;
+}
+
+span{
+  color: #000;
+  font-weight: 900;
+}
+
+
+/* Titles */
+
+
+.section-title{
+  font-size: 4rem;
+}
+
+/* Title Container */
+
+.title-container{
+ position: relative;
+ text-align: center;
+
+}
+
+ #title h1{
+   color: #000;
+   font-family: "Rowdies";
+   font-size: 3rem;
+   font-weight: 900;
+   position: absolute;
+   top:30%;
+   left:50%;
+   text-align: center;
+  }
+
+  #title h2{
+    color: #000;
+    font-family: "Antic Slab";
+    position: absolute;
+    top: 45%;
+    left: 50%;
+   font-size: 2rem;
+   }
+
+#title img{
+  width: 100%;
+}
+
+/* About me */
+
+.about-me-container{
+  background-color: #dfbbbc;
+  text-align: center;
+  padding: 2% 15%;
+
+}
+
+
+.me-img{
+  align:center;
+  width: 15%;
+  margin-bottom: 2%;
+}
+
+/* Skills */
+
+.skills-container{
+  background-color: #dfbbbc;
+  text-align: center;
+  padding: 2%;
+
+}
+
+.skill-img1{
+  float: left;
+  margin-right: 5%;
+  width: 20%;
+}
+
+.skill-img2{
+  float: right;
+  margin-left: 5%;
+  width: 20%;
+}
+
+.skill-row {
+  margin: 2% 15%;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row2 {
+  margin-left: 35%;
+  width: 50%;
+  text-align: right;
+  line-height: 2;
+}
+
+/* Get in touch */
+
+.get-in-touch-container{
+  background-color: #dda7a2;
+  padding: 2% 15%;
+  text-align: center;
+
+}
+
+.get-in-touch-img{
+  width: 10%;
+}
+
+#get-in-touch .btn{
+font-family: serif;
+font-size: 2rem;
+font-weight: bold;
+}
+
+#get-in-touch .btn:hover{
+  color: #000;
+  background-color: #fff;
+}
+
+#get-in-touch a{
+  color: #000;
+  font-family: sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 800px) {
+  #title h1{
+    color: #000;
+    font-family: "Rowdies";
+    font-size: 2rem;
+    font-weight: 900;
+    position: absolute;
+    top:28%;
+    left:50%;
+    text-align: center;
+   }
+
+   #title h2{
+     color: #000;
+     font-family: "Antic Slab";
+     position: absolute;
+     top: 45%;
+     left: 50%;
+    font-size: 1rem;
+    }
+}
